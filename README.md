@@ -17,8 +17,8 @@
 
 ### 概要
 * トピック: countup
-* messageの型: int16
-* 機能: 数字をカウントしconutupにて送信、listenner.pyにより表示
+* メッセージの型: Int16
+* 機能: 数字をカウントしconutupにて送信、listener.pyにより表示
 
 #### 実行方法
 
