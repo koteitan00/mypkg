@@ -3,7 +3,7 @@
   ロボットシステム学内で作成したROS2パッケージ
   ROS2を用いてtalkerとlistener同士が通信出来る
 
-##開発環境
+## 開発環境
 * Ubuntu22.04
 * ROS2 Humble
 * Python 3.7~3.10 
