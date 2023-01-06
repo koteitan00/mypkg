@@ -9,29 +9,23 @@
 * ROS2 Humble
 * Python 3.7~3.10 
 
-## インストール方法
-```bash
-1. $ git clone https://github.com/koteitan00/ros2_setup_scripts
-2. $ cd ros2_setup_scripts
-3. $ ./setup.bash
-4. $ source ~/.bashrc
-```
 ### 概要
 * トピック: countup
 * メッセージの型: Int16
-* 動作: talkerが数字をカウントしconutupにて送信、listener.pyにより表示
+* 動作: talker.pyが数字をカウントしconutupにて送信、listener.pyにより表示
 
 #### それぞれの機能
 
 talker:数字をカウントし、それを送信する
+
 listener:メッセージを受け取り、それを表示する
 
 #### 実行方法
-
+```bash
    端末1: $ros2 run mypkg talker
    
    端末2: $ros2 run mypkg listener
-
+```
 ##### テスト環境
 * Ubuntu22.04
 
