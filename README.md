@@ -10,16 +10,21 @@
 * Python 3.7~3.10 
 
 ## インストール方法
-
+'''
 1. $ git clone https://github.com/koteitan00/ros2_setup_scripts
 2. $ cd ros2_setup_scripts
 3. $ ./setup.bash
 4. $ source ~/.bashrc
-
+'''
 ### 概要
 * トピック: countup
 * メッセージの型: Int16
-* 機能: 数字をカウントしconutupにて送信、listener.pyにより表示
+* 挙動: 数字をカウントしconutupにて送信、listener.pyにより表示
+
+#### 機能
+
+talker:数字をカウントし、それを送信する
+listener:メッセージを受け取り、それを表示する
 
 #### 実行方法
 
