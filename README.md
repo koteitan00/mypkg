@@ -4,11 +4,13 @@
   ROS2を用いてtalkerとlistener同士が通信出来る
 
 ##開発環境
+
 　* Ubuntu22.04
   * ROS2 Humble
   * Python 3.7~3.10 
 
 ## インストール方法
+
 　1. $ git clone https://github.com/koteitan00/ros2_setup_scripts
   2. $ cd ros2_setup_scripts
   3. $ ./setup.bash
