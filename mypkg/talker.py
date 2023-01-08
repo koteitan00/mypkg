@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2022/11 Hoshi Kairi hoshikairi00@gmail.com
+# SPDX-FileCopyrightText: 2023/1 Hoshi Kairi hoshikairi00@gmail.com
 # SPDX-License-Identifier: BSD-3-Clause
 
 import rclpy 
